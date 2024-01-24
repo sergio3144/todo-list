@@ -1,7 +1,6 @@
-import React, { useEffect, useContext } from 'react';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
-import { context, useGlobalState } from '../../../hooks/context/GlobaContext';
+import { useGlobalState } from '../../../hooks/context/GlobaContext';
 
 const style = {
   position: 'absolute' as 'absolute',
